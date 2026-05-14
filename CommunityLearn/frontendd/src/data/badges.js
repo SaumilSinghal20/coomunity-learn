@@ -1,0 +1,57 @@
+export const ALL_BADGES = [
+  { id:'first_login',   name:'First Step',        desc:'Log in for the first time',      icon:'🚀', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'first_quiz',    name:'Quiz Starter',       desc:'Complete your first quiz',       icon:'📝', minPoints:0,     minLevel:1,  minQuizzes:1,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_100',    name:'Century',            desc:'Earn 100 points',                icon:'💯', minPoints:100,   minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_250',    name:'Quarter K',          desc:'Earn 250 points',                icon:'🌟', minPoints:250,   minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_500',    name:'High Flyer',         desc:'Earn 500 points',                icon:'🏆', minPoints:500,   minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_750',    name:'Three-Quarter K',    desc:'Earn 750 points',                icon:'🎖️', minPoints:750,   minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_1000',   name:'Scholar',            desc:'Earn 1000 points',               icon:'📚', minPoints:1000,  minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_2000',   name:'Knowledge Seeker',   desc:'Earn 2000 points',               icon:'🔭', minPoints:2000,  minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_3000',   name:'Unstoppable',        desc:'Earn 3000 points',               icon:'💪', minPoints:3000,  minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_5000',   name:'Grand Master',       desc:'Earn 5000 points',               icon:'🎖️', minPoints:5000,  minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'points_10000',  name:'Platinum',           desc:'Earn 10000 points',              icon:'🔮', minPoints:10000, minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_2',       name:'Level Up!',          desc:'Reach Level 2',                  icon:'⬆️', minPoints:0,     minLevel:2,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_3',       name:'Learner',            desc:'Reach Level 3',                  icon:'📈', minPoints:0,     minLevel:3,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_5',       name:'Rising Star',        desc:'Reach Level 5',                  icon:'⭐', minPoints:0,     minLevel:5,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_7',       name:'High Achiever',      desc:'Reach Level 7',                  icon:'🚀', minPoints:0,     minLevel:7,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_10',      name:'Master',             desc:'Reach Level 10',                 icon:'👑', minPoints:0,     minLevel:10, minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_15',      name:'Legend',             desc:'Reach Level 15',                 icon:'🏅', minPoints:0,     minLevel:15, minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'level_20',      name:'Grandmaster',        desc:'Reach Level 20',                 icon:'🎓', minPoints:0,     minLevel:20, minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'quiz_3',        name:'Quiz Fan',           desc:'Complete 3 quizzes',             icon:'🎯', minPoints:0,     minLevel:1,  minQuizzes:3,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'quiz_5',        name:'Quiz Regular',       desc:'Complete 5 quizzes',             icon:'📋', minPoints:0,     minLevel:1,  minQuizzes:5,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'quiz_10',       name:'Quiz Champion',      desc:'Complete 10 quizzes',            icon:'🏅', minPoints:0,     minLevel:1,  minQuizzes:10, minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'quiz_20',       name:'Quiz Master',        desc:'Complete 20 quizzes',            icon:'🏆', minPoints:0,     minLevel:1,  minQuizzes:20, minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'quiz_25',       name:'Quiz Addict',        desc:'Complete 25 quizzes',            icon:'🎪', minPoints:0,     minLevel:1,  minQuizzes:25, minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'perfect_score', name:'Perfect Score',      desc:'Score 100% on a quiz',           icon:'💎', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:1 },
+  { id:'perfect_3',     name:'Triple Perfect',     desc:'Score 100% three times',         icon:'💫', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:3 },
+  { id:'session_1',     name:'First Booking',      desc:'Book your first session',        icon:'📅', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:1,  minStreak:0,  minPerfect:0 },
+  { id:'session_3',     name:'Session Goer',       desc:'Book 3 sessions',                icon:'🗓️', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:3,  minStreak:0,  minPerfect:0 },
+  { id:'session_5',     name:'Regular Learner',    desc:'Book 5 sessions',                icon:'🎓', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:5,  minStreak:0,  minPerfect:0 },
+  { id:'session_10',    name:'Dedicated Student',  desc:'Book 10 sessions',               icon:'🎒', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:10, minStreak:0,  minPerfect:0 },
+  { id:'streak_3',      name:'On a Roll',          desc:'3-day learning streak',          icon:'🔥', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:3,  minPerfect:0 },
+  { id:'streak_5',      name:'Dedicated',          desc:'5-day learning streak',          icon:'🏋️', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:5,  minPerfect:0 },
+  { id:'streak_7',      name:'Week Warrior',       desc:'7-day learning streak',          icon:'⚡', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:7,  minPerfect:0 },
+  { id:'streak_14',     name:'Fortnight',          desc:'14-day streak',                  icon:'🌈', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:14, minPerfect:0 },
+  { id:'streak_30',     name:'Monthly Grinder',    desc:'30-day streak',                  icon:'🗓️', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:30, minPerfect:0 },
+  { id:'top_scorer',    name:'Top Scorer',         desc:'Score above 90% average',        icon:'🎯', minPoints:200,   minLevel:2,  minQuizzes:5,  minSessions:0,  minStreak:0,  minPerfect:1 },
+  { id:'completionist', name:'Completionist',      desc:'Complete every subject quiz',    icon:'✅', minPoints:0,     minLevel:5,  minQuizzes:15, minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'all_rounder',   name:'All Rounder',        desc:'Complete quizzes in 3 subjects', icon:'🌍', minPoints:0,     minLevel:1,  minQuizzes:9,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'mentor_fav',    name:"Mentor's Fave",      desc:'Book same tutor 3 times',        icon:'❤️', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:3,  minStreak:0,  minPerfect:0 },
+  { id:'comeback_kid',  name:'Comeback Kid',       desc:'Retake and improve a quiz',      icon:'🔄', minPoints:0,     minLevel:1,  minQuizzes:2,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'explorer',      name:'Explorer',           desc:'Visit all 5 tabs',               icon:'🗺️', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'bookworm',      name:'Bookworm',           desc:'View 10 resources',              icon:'📖', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'social_star',   name:'Social Star',        desc:'Share your progress',            icon:'🌟', minPoints:50,    minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'speed_demon',   name:'Speed Demon',        desc:'Complete a quiz in under 5 min', icon:'⚡', minPoints:0,     minLevel:1,  minQuizzes:1,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'early_bird',    name:'Early Bird',         desc:'Login before 7 AM',              icon:'🌅', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:1,  minPerfect:0 },
+  { id:'night_owl',     name:'Night Owl',          desc:'Study after 10 PM',              icon:'🦉', minPoints:0,     minLevel:1,  minQuizzes:0,  minSessions:0,  minStreak:1,  minPerfect:0 },
+  { id:'code_wizard',   name:'Code Wizard',        desc:'Complete 3 Programming quizzes', icon:'💻', minPoints:0,     minLevel:1,  minQuizzes:3,  minSessions:0,  minStreak:0,  minPerfect:0 },
+  { id:'math_lover',    name:'Math Lover',         desc:'Complete 3 Math quizzes',        icon:'➕', minPoints:0,     minLevel:1,  minQuizzes:3,  minSessions:0,  minStreak:0,  minPerfect:0 },
+];
+
+export const isBadgeEarned = (badge, progress) =>
+  (progress.points        || 0) >= badge.minPoints   &&
+  (progress.level         || 1) >= badge.minLevel    &&
+  (progress.quizzes       || 0) >= badge.minQuizzes  &&
+  (progress.sessions      || 0) >= badge.minSessions &&
+  (progress.streak        || 0) >= badge.minStreak   &&
+  (progress.perfectScores || 0) >= badge.minPerfect;
